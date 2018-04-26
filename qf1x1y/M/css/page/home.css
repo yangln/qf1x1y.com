@@ -1,0 +1,154 @@
+.main{
+	position: relative;
+}
+.view {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 5;
+    top: 48px;
+}
+/****************************   首屏   ***************************/
+.page1{
+	background: url(../../img/home/page1-bg.jpg) no-repeat center;
+	background-size: 10rem 100%;
+}
+.view_txt{
+	width: 7.866667rem;
+	position: absolute;
+	color: #fff;
+	left: 50%;
+	top: 60%;
+	margin-left: -3.933333rem;
+	text-align: center;
+}
+.view_txt p{
+	line-height: 0.8rem;
+	font-size: 12px;
+}
+.more_btn{
+	width: 4.92rem;
+	height: 0.906667rem;
+	background: #fff;
+	color: #e5542b;
+	text-align: center;
+	line-height: 0.906667rem;
+	font-size: 13px;
+	font-style: italic;
+	border-radius: 8px;
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 0.48rem;
+}
+/****************************   2屏   ***************************/
+.page2{
+	background: #006fc2;
+}
+.page2 .view_txt{
+	top: 18%;
+	text-align: left;
+}
+.tit{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: #fff;
+}
+.map{
+	width: 8.0rem;
+	height: 6.493333rem;
+	background: url(../../img/home/map.png) no-repeat center;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin-left: -4rem;
+}
+.city-point{
+    width: 40px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+	position: absolute;
+	font-size: 12px;
+	background-position: right center; 
+	background-size: 17px 17px;
+	background-repeat: no-repeat;
+	padding-right: 17px;
+}
+.beijing{
+	background-color: rgba(240,72,72,0.65);
+	background-image: url(../../img/home/text_bg_2.jpg);
+    right: 1.7rem;
+    top: 2.0rem;
+}
+.wenzhou{
+	background-color: rgba(124,227,21,0.65);
+	background-image: url(../../img/home/text_bg_3.jpg);
+    right: 0.0rem;
+    top: 3.4rem;	
+}
+.dongguan{
+	background-color: rgba(255,204,0,0.65);
+	background-image: url(../../img/home/text_bg_5.jpg);
+    right: .5rem;
+    bottom: .2rem;
+}
+.hebei{
+	background-color: rgba(255,153,51,0.65);
+	background-image: url(../../img/home/text_bg_4.jpg);
+	right: 0.4rem;
+    top: 2.8rem;	
+}
+.nantong{
+	background-color: rgba(255,153,51,0.65);
+	background-image: url(../../img/home/text_bg_4.jpg);
+    right: 1.4rem;
+    top: 4.8rem;
+}
+.xian{
+	background-color: rgba(51,204,255,0.65);
+	background-image: url(../../img/home/text_bg_1.jpg);
+    right: 3.4rem;
+    top: 3.2rem;
+}
+.haerbin{
+	background-color: rgba(51,204,255,0.65);
+	background-image: url(../../img/home/text_bg_1.jpg);
+    right: 0.4rem;
+    top: 0.6rem;
+}
+/***********************************   第3屏  *****************************/
+.page3{
+	background: url(../../img/home/page3-bg.jpg) no-repeat center;
+	background-size: 10rem 100%;
+}
+.page3 .view_txt{
+	top: 30%;	
+}
+.page3 .more_btn{
+	background: #e83428;
+	color: #fff;
+}
+/***********************************   第4屏  *****************************/
+.page4{
+	background: url(../../img/home/page4-bg.jpg) no-repeat center; 
+	background-size: 10rem 100%;
+}
+.page4 .view_txt{
+	top: 40%;
+}
+.page4 .more_btn{
+	background: #e83428;
+	color: #fff;
+}
+/*footer*/
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
